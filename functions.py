@@ -58,15 +58,45 @@ def booster():
     else:
         basepack()
 
-# Function displaying every pokemon
-def showallpokemons():
+# Functions displaying every pokemon
+
+    # Function displaying every pokemon sorted by star
+def showallpokemonsbystar():
     print()
-    print("There is the list of every pokemon (press Enter to go back to menu) :")
+    print("There is the list of every pokemon sorted by star (press Enter to go back to menu) :")
     print()
-    for pokemon in pokemons:
+    for pokemon in pokemonsbystar:
         print(pokemon)
     input()
     menu()
+
+    # Function displaying every pokemon sorted by number
+def showallpokemonsbynumber():
+    print()
+    print("There is the list of every pokemon sorted by number (press Enter to go back to menu) :")
+    print()
+    for pokemon in pokemonsbynumber:
+        print(pokemon)
+    input()
+    menu()
+
+    # Function displaying the choice to sort the pokemons by stars or by number
+def showallpokemons():
+    print()
+    print("How do you want to sort the pokemons ?")
+    print("1. By stars")
+    print("2. By number")
+    print("3. Back to menu")
+    choice = input("Your choice : ")
+    if choice == "1":
+        showallpokemonsbystar()
+    elif choice == "2":
+        showallpokemonsbynumber()
+    elif choice == "3":
+        menu()
+    else:
+        print("Incorrect choice. Please try again.")
+        showallpokemons()
 
 # Function displaying the menu
 def menu():

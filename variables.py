@@ -46,11 +46,17 @@ Mew = "#44 - Mew - ***"
 MewEx = "#45 - Mew EX - *****"
 
 # Lists
-pokemons = [Charmander, Squirtle, Bulbasaur, Caterpie, Weedle, Pidgey, Rattata, Pikachu, Psyduck, Abra, Magikarp, Dratini, Charmelon, Wartortle, Ivysaur, Metapod, 
-            Kakuna, Pidgeotto, Raticate, Raichu, Golduck, Kadabra, Dragonair, Charizard, Blastoise, Venusaur, Butterfree, Beedrill, Pidgeot, Alakazam, Gyarados, Snorlax, Dragonite, 
-            Mew, Mewto, CharizardEx, BlastoiseEx, VenusaurEx, PikachuEx, AlakazamEx, GyaradosEx, SnorlaxEx, DragoniteEx, MewtoEx, MewEx]
-pokemon1star = pokemons[0:12]
-pokemon2star = pokemons[12:23]
-pokemon3star = pokemons[23:35]
-pokemon4star = pokemons[35:44]
-pokemon5star = pokemons[44:45]
+pokemonsbystar = [Charmander, Squirtle, Bulbasaur, Caterpie, Weedle, Pidgey, Rattata, Pikachu, Psyduck, Abra, Magikarp, Dratini, Charmelon, Wartortle, Ivysaur, 
+                  Metapod, Kakuna, Pidgeotto, Raticate, Raichu, Golduck, Kadabra, Dragonair, Charizard, Blastoise, Venusaur, Butterfree, Beedrill, Pidgeot, Alakazam, 
+                  Gyarados, Snorlax, Dragonite, Mew, Mewto, CharizardEx, BlastoiseEx, VenusaurEx, PikachuEx, AlakazamEx, GyaradosEx, SnorlaxEx, DragoniteEx, MewtoEx, 
+                  MewEx]
+pokemon1star = pokemonsbystar[0:12]
+pokemon2star = pokemonsbystar[12:23]
+pokemon3star = pokemonsbystar[23:35]
+pokemon4star = pokemonsbystar[35:44]
+pokemon5star = pokemonsbystar[44:45]
+
+pokemonsbynumber = [Charmander, Charmelon, Charizard, CharizardEx, Squirtle, Wartortle, Blastoise, BlastoiseEx, Bulbasaur, Ivysaur, Venusaur, VenusaurEx, Caterpie, 
+                    Metapod, Butterfree, Weedle, Kakuna, Beedrill, Pidgey, Pidgeotto, Pidgeot, Rattata, Raticate, Pikachu, Raichu, PikachuEx, Psyduck, Golduck, Abra, 
+                    Kadabra, Alakazam, AlakazamEx, Magikarp, Gyarados, GyaradosEx, Snorlax, SnorlaxEx, Dratini, Dragonair, Dragonite, DragoniteEx, Mewto, MewtoEx, Mew, 
+                    MewEx]
